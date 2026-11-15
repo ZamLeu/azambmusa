@@ -19,8 +19,8 @@ export const ZMBadgeIcon: React.FC<ZMBadgeIconProps> = ({ size = 24, className =
       {/* Outer Retro Chassis Frame */}
       <rect x="1" y="1" width="30" height="30" fill="currentColor" fillOpacity="0.08" stroke="currentColor" strokeWidth="2" />
 
-      {/* Phosphor Green Active Hardware LED */}
-      <rect x="25" y="4" width="3" height="3" fill="#10B981" />
+      {/* Safety Orange Active Hardware LED */}
+      <rect x="25" y="4" width="3" height="3" fill="#F97316" />
 
       {/* ============================================================== */}
       {/* LETTER 'Z' (Pixel Art Typography) */}

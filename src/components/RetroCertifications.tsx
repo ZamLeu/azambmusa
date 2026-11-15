@@ -22,7 +22,7 @@ export const RetroCertifications: React.FC = () => {
           >
             <div>
               <div className="flex items-center justify-between gap-2 mb-2">
-                <span className="text-xs font-mono uppercase px-2 py-0.5 bg-[#059669] text-white dark:bg-[#10B981] dark:text-[#0D0D0D] font-bold">
+                <span className="text-xs font-mono uppercase px-2 py-0.5 bg-[#EA580C] text-white dark:bg-[#F97316] dark:text-[#0D0D0D] font-bold">
                   PROFESSIONAL CERT
                 </span>
                 <span className="text-xs font-mono text-[#666663] dark:text-[#A0A09C] font-bold">

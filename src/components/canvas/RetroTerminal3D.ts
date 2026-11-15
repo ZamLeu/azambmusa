@@ -101,7 +101,7 @@ export class RetroTerminal3D {
     }
 
     // Top OS Bar
-    ctx.fillStyle = '#059669';
+    ctx.fillStyle = '#EA580C';
     ctx.fillRect(16, 16, 480, 26);
     ctx.fillStyle = '#0D0D0D';
     ctx.font = 'bold 12px "Space Mono", monospace';
@@ -177,7 +177,7 @@ export class RetroTerminal3D {
     const chassisMat = new THREE.MeshBasicMaterial({ color: 0xF4F4F2 });
     const darkMat = new THREE.MeshBasicMaterial({ color: 0x0D0D0D });
     const lineMat = new THREE.LineBasicMaterial({ color: 0x0D0D0D, linewidth: 2 });
-    const phosphorGreenMat = new THREE.MeshBasicMaterial({ color: 0x10B981 });
+    const safetyOrangeMat = new THREE.MeshBasicMaterial({ color: 0xF97316 });
     const silverMat = new THREE.MeshBasicMaterial({ color: 0xD4D4D0 });
 
     // Helper: Chamfered Rounded Box with crisp 2-pixel retro ink outlines
@@ -259,10 +259,10 @@ export class RetroTerminal3D {
     ejectPin.position.set(1.08, -0.92, 1.22);
     macGroup.add(ejectPin);
 
-    // Drive Activity Phosphor Green LED
+    // Drive Activity Safety Orange LED
     const driveLed = new THREE.Mesh(
       new RoundedBoxGeometry(0.06, 0.06, 0.04, 1, 0.02),
-      phosphorGreenMat
+      safetyOrangeMat
     );
     driveLed.position.set(-0.15, -0.92, 1.22);
     macGroup.add(driveLed);
@@ -272,10 +272,10 @@ export class RetroTerminal3D {
     logoBadge.position.set(-0.95, -0.92, 1.22);
     macGroup.add(logoBadge);
 
-    // Tiny Phosphor Green Accent Core inside Badge
+    // Tiny Safety Orange Accent Core inside Badge
     const badgeCore = new THREE.Mesh(
       new RoundedBoxGeometry(0.14, 0.14, 0.05, 1, 0.03),
-      phosphorGreenMat
+      safetyOrangeMat
     );
     badgeCore.position.set(-0.95, -0.92, 1.23);
     macGroup.add(badgeCore);
@@ -329,14 +329,14 @@ export class RetroTerminal3D {
         const keyD = 0.17;
         const kx = (c - 4) * 0.28;
         const kz = -0.28 + r * 0.22;
-        const isAccent = (r === 0 && c === 0); // Phosphor Green Esc Key!
+        const isAccent = (r === 0 && c === 0); // Safety Orange Esc Key!
         const isMod = c === 0 || c === 8;
         const key = createBeveledBoxWithOutline(
           keyW, 
           0.07, 
           keyD, 
           0.03,
-          isAccent ? phosphorGreenMat : (isMod ? darkMat : chassisMat)
+          isAccent ? safetyOrangeMat : (isMod ? darkMat : chassisMat)
         );
         key.position.set(kx, 0.11, kz);
         kbGroup.add(key);
