@@ -45,7 +45,7 @@ export const RetroProjectPreview: React.FC<RetroProjectPreviewProps> = ({ projec
                 onClick={() => setActiveMobileTab('dual')}
                 className={`px-1.5 py-0.5 text-[9px] font-bold border transition-colors cursor-pointer ${
                   activeMobileTab === 'dual'
-                    ? 'bg-[#D97706] text-white border-[#D97706] dark:bg-[#F59E0B] dark:text-[#0D0D0D] dark:border-[#F59E0B]'
+                    ? 'bg-[#059669] text-white border-[#059669] dark:bg-[#10B981] dark:text-[#0D0D0D] dark:border-[#10B981]'
                     : 'bg-transparent text-[#8E8E8A] border-transparent hover:text-[#F4F4F2]'
                 }`}
               >
@@ -55,7 +55,7 @@ export const RetroProjectPreview: React.FC<RetroProjectPreviewProps> = ({ projec
                 onClick={() => setActiveMobileTab('screen1')}
                 className={`px-1.5 py-0.5 text-[9px] font-bold border transition-colors cursor-pointer ${
                   activeMobileTab === 'screen1'
-                    ? 'bg-[#D97706] text-white border-[#D97706] dark:bg-[#F59E0B] dark:text-[#0D0D0D] dark:border-[#F59E0B]'
+                    ? 'bg-[#059669] text-white border-[#059669] dark:bg-[#10B981] dark:text-[#0D0D0D] dark:border-[#10B981]'
                     : 'bg-transparent text-[#8E8E8A] border-transparent hover:text-[#F4F4F2]'
                 }`}
               >
@@ -65,7 +65,7 @@ export const RetroProjectPreview: React.FC<RetroProjectPreviewProps> = ({ projec
                 onClick={() => setActiveMobileTab('screen2')}
                 className={`px-1.5 py-0.5 text-[9px] font-bold border transition-colors cursor-pointer ${
                   activeMobileTab === 'screen2'
-                    ? 'bg-[#D97706] text-white border-[#D97706] dark:bg-[#F59E0B] dark:text-[#0D0D0D] dark:border-[#F59E0B]'
+                    ? 'bg-[#059669] text-white border-[#059669] dark:bg-[#10B981] dark:text-[#0D0D0D] dark:border-[#10B981]'
                     : 'bg-transparent text-[#8E8E8A] border-transparent hover:text-[#F4F4F2]'
                 }`}
               >
@@ -157,7 +157,7 @@ export const RetroProjectPreview: React.FC<RetroProjectPreviewProps> = ({ projec
       <div className="bg-[#0D0D0D] dark:bg-[#000000] text-[#F4F4F2] px-3 py-1.5 flex items-center justify-between gap-2 text-xs border-b-2 border-[#0D0D0D] dark:border-[#E5E5E2]">
         {/* Left: Window control dots */}
         <div className="flex items-center gap-1.5 shrink-0">
-          <span className="w-2 h-2 rounded-full border border-[#D97706] bg-[#D97706] dark:border-[#F59E0B] dark:bg-[#F59E0B]" />
+          <span className="w-2 h-2 rounded-full border border-[#059669] bg-[#059669] dark:border-[#10B981] dark:bg-[#10B981]" />
           <span className="w-2 h-2 rounded-full border border-[#F4F4F2] bg-transparent" />
           <span className="w-2 h-2 rounded-full border border-[#F4F4F2] bg-transparent" />
         </div>

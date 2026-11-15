@@ -66,7 +66,7 @@ export const RetroHero = forwardRef<RetroHeroHandle, RetroHeroProps>(({ onNaviga
         <div className="lg:col-span-6 flex flex-col items-start font-mono">
           {/* Status Flag */}
           <div className="text-xs font-mono tracking-wider text-[#0D0D0D] dark:text-[#F4F4F2] uppercase mb-4 flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 bg-[#D97706] dark:bg-[#F59E0B] shadow-[0_0_8px_rgba(245,158,11,0.6)] animate-pulse shrink-0" />
+            <span className="inline-block w-2.5 h-2.5 bg-[#059669] dark:bg-[#10B981] shadow-[0_0_8px_rgba(16,185,129,0.6)] animate-pulse shrink-0" />
             <span>SYS.READY : {portfolioData.personal.availability}</span>
           </div>
 
@@ -90,11 +90,11 @@ export const RetroHero = forwardRef<RetroHeroHandle, RetroHeroProps>(({ onNaviga
             {/* Viewfinder Header Bar */}
             <div className="bg-[#0D0D0D] dark:bg-[#000000] text-[#F4F4F2] px-3 py-1.5 flex items-center justify-between text-[10px] font-mono border-b-2 border-[#0D0D0D] dark:border-[#E5E5E2]">
               <span className="font-bold flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#D97706] dark:bg-[#F59E0B] shadow-[0_0_6px_rgba(245,158,11,0.6)] animate-pulse" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#059669] dark:bg-[#10B981] shadow-[0_0_6px_rgba(16,185,129,0.6)] animate-pulse" />
                 [CAM_01 // OPERATOR_LIVE_FEED]
               </span>
               <span className="flex items-center gap-2 font-mono text-[10px]">
-                <span className="text-[#D97706] dark:text-[#F59E0B] font-bold">REC ●</span>
+                <span className="text-[#059669] dark:text-[#10B981] font-bold">REC ●</span>
                 <span className="text-[#8E8E8A] hidden sm:inline">60FPS // 1080p</span>
               </span>
             </div>
@@ -127,7 +127,7 @@ export const RetroHero = forwardRef<RetroHeroHandle, RetroHeroProps>(({ onNaviga
                 <span className="bg-[#0D0D0D]/85 dark:bg-black/90 text-[#F4F4F2] px-1.5 py-0.5 border border-[#444]">
                   OPERATOR // 0xAZAM
                 </span>
-                <span className="bg-[#0D0D0D]/85 dark:bg-black/90 text-[#D97706] dark:text-[#F59E0B] font-bold px-1.5 py-0.5 border border-[#444]">
+                <span className="bg-[#0D0D0D]/85 dark:bg-black/90 text-[#059669] dark:text-[#10B981] font-bold px-1.5 py-0.5 border border-[#444]">
                   BERANANG, MY // 2.88°N 101.87°E
                 </span>
               </div>
@@ -149,7 +149,7 @@ export const RetroHero = forwardRef<RetroHeroHandle, RetroHeroProps>(({ onNaviga
               </div>
               <div className="p-2 sm:p-2.5">
                 <span className="text-[#666663] dark:text-[#A0A09C] block text-[9px] uppercase font-bold">FOCUS</span>
-                <span className="text-[#D97706] dark:text-[#F59E0B] font-bold block whitespace-nowrap">FULL-STACK / WEB</span>
+                <span className="text-[#059669] dark:text-[#10B981] font-bold block whitespace-nowrap">FULL-STACK / WEB</span>
               </div>
             </div>
           </div>
@@ -235,7 +235,7 @@ export const RetroHero = forwardRef<RetroHeroHandle, RetroHeroProps>(({ onNaviga
           <div className="w-full mt-3 p-3 bg-[#F4F4F2] dark:bg-[#141414] border-2 border-[#0D0D0D] dark:border-[#E5E5E2] shadow-[4px_4px_0px_#0D0D0D] dark:shadow-[4px_4px_0px_#E5E5E2] transition-colors">
             <div className="text-[10px] uppercase font-bold text-[#666663] dark:text-[#A0A09C] mb-2 flex items-center justify-between">
               <span>SELECT MODULE TO BOOT :</span>
-              <span className="text-[#D97706] dark:text-[#F59E0B] font-mono font-bold">ZM_OS ↵</span>
+              <span className="text-[#059669] dark:text-[#10B981] font-mono font-bold">ZM_OS ↵</span>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">

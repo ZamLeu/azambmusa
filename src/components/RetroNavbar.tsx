@@ -49,7 +49,7 @@ export const RetroNavbar: React.FC<RetroNavbarProps> = ({ isDarkMode, onToggleDa
             <span className="font-pixel text-sm sm:text-base tracking-wider text-[#0D0D0D] dark:text-[#F4F4F2]">
               azambmusa
             </span>
-            <span className="w-1.5 h-1.5 rounded-full bg-[#D97706] dark:bg-[#F59E0B] shadow-[0_0_6px_rgba(245,158,11,0.6)] animate-pulse" title="System Online" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#059669] dark:bg-[#10B981] shadow-[0_0_6px_rgba(16,185,129,0.6)] animate-pulse" title="System Online" />
           </div>
           <span className="text-xs font-mono text-[#666663] dark:text-[#A0A09C] hidden sm:inline">
             azambmusa.my // BERANANG, MY
@@ -64,7 +64,7 @@ export const RetroNavbar: React.FC<RetroNavbarProps> = ({ isDarkMode, onToggleDa
             key={l.label}
             href={l.href}
             onClick={(e) => handleScrollTo(e, l.href)}
-            className="hover:underline underline-offset-4 decoration-2 decoration-[#D97706] dark:decoration-[#F59E0B] hover:text-[#D97706] dark:hover:text-[#F59E0B] transition-colors cursor-pointer"
+            className="hover:underline underline-offset-4 decoration-2 decoration-[#059669] dark:decoration-[#10B981] hover:text-[#059669] dark:hover:text-[#10B981] transition-colors cursor-pointer"
           >
             [{l.label}]
           </a>

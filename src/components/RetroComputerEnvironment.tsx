@@ -103,7 +103,7 @@ export const RetroComputerEnvironment: React.FC<RetroComputerEnvironmentProps> =
         {/* UNIFIED TOP BAR: System info + Tabs + Eject — single row */}
         <div className="bg-[#0D0D0D] dark:bg-[#0A0A0A] text-[#F4F4F2] px-2 sm:px-4 py-1.5 flex items-center gap-2 border-b-2 border-[#0D0D0D] dark:border-[#333333] z-30 flex-wrap sm:flex-nowrap">
           {/* OS Badge */}
-          <span className="bg-[#D97706] text-white dark:bg-[#F59E0B] dark:text-[#0D0D0D] px-1.5 py-0.5 font-pixel text-[10px] shrink-0 font-bold">
+          <span className="bg-[#059669] text-white dark:bg-[#10B981] dark:text-[#0D0D0D] px-1.5 py-0.5 font-pixel text-[10px] shrink-0 font-bold">
             ZM_OS
           </span>
 
@@ -117,7 +117,7 @@ export const RetroComputerEnvironment: React.FC<RetroComputerEnvironmentProps> =
                   onClick={() => setActiveTab(tab.id)}
                   className={`px-2 py-1 text-[11px] font-bold border transition-all flex items-center gap-1 whitespace-nowrap cursor-pointer shrink-0 ${
                     isActive
-                      ? 'bg-[#F4F4F2] text-[#0D0D0D] border-[#D97706] dark:bg-[#F4F4F2] dark:text-[#0D0D0D] dark:border-[#F59E0B] shadow-[inset_0_-2px_0_#D97706] dark:shadow-[inset_0_-2px_0_#F59E0B]'
+                      ? 'bg-[#F4F4F2] text-[#0D0D0D] border-[#059669] dark:bg-[#F4F4F2] dark:text-[#0D0D0D] dark:border-[#10B981] shadow-[inset_0_-2px_0_#059669] dark:shadow-[inset_0_-2px_0_#10B981]'
                       : 'bg-transparent text-[#8E8E8A] border-transparent hover:text-[#F4F4F2] hover:bg-[#333] dark:hover:bg-[#222]'
                   }`}
                 >

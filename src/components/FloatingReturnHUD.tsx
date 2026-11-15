@@ -42,7 +42,7 @@ export const FloatingReturnHUD: React.FC<FloatingReturnHUDProps> = ({ onReturn }
         className="flex items-center gap-2.5 px-4 py-2.5 bg-[#0D0D0D] text-[#F4F4F2] border-2 border-[#0D0D0D] dark:bg-[#F4F4F2] dark:text-[#0D0D0D] dark:border-[#F4F4F2] text-xs font-bold tracking-wider hover:bg-[#F4F4F2] hover:text-[#0D0D0D] dark:hover:bg-[#0D0D0D] dark:hover:text-[#F4F4F2] transition-colors shadow-[4px_4px_0px_#0D0D0D] dark:shadow-[4px_4px_0px_#333333] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none cursor-pointer"
         title="Press ESC or Click to return to the 3D Workstation"
       >
-        <ArrowUp size={14} className="animate-bounce text-[#D97706] dark:text-[#F59E0B]" />
+        <ArrowUp size={14} className="animate-bounce text-[#059669] dark:text-[#10B981]" />
         <span>[ESC] RETURN TO 3D PC</span>
       </button>
     </div>
